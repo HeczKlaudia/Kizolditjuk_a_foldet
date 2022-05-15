@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(191, 191, 191);
+    text-align: left;
+    padding: 7px;
+}
+
+table tr:nth-child(2) {
+    background-color: lightgray;
+}
